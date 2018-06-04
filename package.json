@@ -1,0 +1,23 @@
+{
+  "name": "ouijabot2",
+  "version": "1.0.0",
+  "description": "A Bot to flair answers on /r/AsktheOuija",
+  "main": "ouija.js",
+  "dependencies": {
+    "moment": "^2.22.1",
+    "snoowrap": "^1.15.2"
+  },
+  "devDependencies": {
+    "moment": "^2.14.1",
+    "snoowrap": "^1.3.0"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toomuchwhiskey/Ouijabot2"
+  },
+  "author": "Bill King",
+  "license": "ISC"
+}
