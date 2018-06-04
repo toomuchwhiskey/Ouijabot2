@@ -388,11 +388,11 @@ function notifyUser(post, response){
 
 	var text = `**You asked:** ${post.title}` + EOL;
 	text += EOL;
-	text += `**Ouija says:** [${answer}](${url})`;
+	text += `**Spirits say:** [${answer}](${url})`;
 
 	r.compose_message({
 		to: post.author,
-		subject: 'THE OUIJA HAS SPOKEN',
+		subject: 'THE SPIRITS HAVE DIVINED AN ANSWER',
 		text,
 		from_subreddit: SUBREDDIT_NAME
 	});
